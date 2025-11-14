@@ -53,7 +53,7 @@ A continuación, se detallan los pasos para configurar el proyecto en un entorno
     cd CRUD_PHP_POO_MVC
     ```
 3.  **Configura la base de datos:**
-    *   Crea una base de datos en tu gestor (ej. phpMyAdmin).
+    *   Crea una base de datos en tu gestor (ej. phpMyAdmin) e importa el archivo `database.sql` que puedes generar exportando la base de datos una vez que el sistema esté funcionando.
     *   Configura los detalles de la conexión a la base de datos en el archivo `Config/Server.php`.
 
 4.  **Inicia tu servidor web** y accede al proyecto desde tu navegador (ej. `http://localhost/CRUD_PHP_POO_MVC/`).

@@ -1,0 +1,1 @@
+-- Por favor, exporta tu base de datos y pega el contenido aquí.
