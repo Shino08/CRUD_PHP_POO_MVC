@@ -4,20 +4,20 @@ Este es un proyecto de un CRUD (Crear, Leer, Actualizar, Eliminar) desarrollado 
 
 ## 🚀 Estado del Proyecto
 
-**⚠️ En Desarrollo:** Este proyecto se encuentra actualmente en desarrollo. Muchas de las funcionalidades principales aún no están implementadas o están incompletas.
+**✅ Completado:** Este proyecto está finalizado. Todas las funcionalidades principales han sido implementadas.
 
 ## ✨ Características (Actuales y Planeadas)
 
 *   **Gestión de Usuarios:**
     *   [x] Listar usuarios
     *   [x] Crear nuevos usuarios
-    *   [ ] Actualizar usuarios
-    *   [ ] Eliminar usuarios
-    *   [ ] Buscar usuarios
+    *   [x] Actualizar usuarios
+    *   [x] Eliminar usuarios
+    *   [x] Buscar usuarios
 *   **Sistema de Login:**
     *   [x] Inicio de sesión
-    *   [ ] Cierre de sesión
-    *   [ ] Protección de rutas
+    *   [x] Cierre de sesión
+    *   [x] Protección de rutas
 *   **Estructura MVC:**
     *   **Modelos:** Para la interacción con la base de datos.
     *   **Vistas:** Para la presentación de la interfaz de usuario.
@@ -46,17 +46,17 @@ A continuación, se detallan los pasos para configurar el proyecto en un entorno
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone https://URL-DEL-REPOSITORIO.git
+    git clone https://github.com/MaaC-14/CRUD_PHP_POO_MVC.git
     ```
 2.  **Navega al directorio del proyecto:**
     ```bash
-    cd NOMBRE-DEL-DIRECTORIO
+    cd CRUD_PHP_POO_MVC
     ```
 3.  **Configura la base de datos:**
-    *   Importa el archivo `.sql` (si se proporciona) a tu gestor de base de datos (ej. phpMyAdmin).
+    *   Crea una base de datos en tu gestor (ej. phpMyAdmin).
     *   Configura los detalles de la conexión a la base de datos en el archivo `Config/Server.php`.
 
-4.  **Inicia tu servidor web** y accede al proyecto desde tu navegador (ej. `http://localhost/NOMBRE-DEL-DIRECTORIO/`).
+4.  **Inicia tu servidor web** y accede al proyecto desde tu navegador (ej. `http://localhost/CRUD_PHP_POO_MVC/`).
 
 ## 🤝 Contribuciones
 
@@ -70,4 +70,4 @@ Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor s
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles (si existe).
+Este proyecto está bajo la Licencia MIT.
