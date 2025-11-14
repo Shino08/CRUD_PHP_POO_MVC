@@ -18,6 +18,12 @@ if (isset($_POST['modulo_usuario'])) {
     if($_POST['modulo_usuario'] == "actualizar") {
        echo $inUsuario->ActualizarUsuarioController();
     }
+    if($_POST['modulo_usuario'] == "actualizarFoto") {
+       echo $inUsuario->ActualizarFotoUsuarioController();
+    }
+    if($_POST['modulo_usuario'] == "eliminarFoto") {
+       echo $inUsuario->EliminarFotoUsuarioController();
+    }
 
 } else {
     session_destroy();
