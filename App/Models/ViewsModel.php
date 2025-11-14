@@ -12,7 +12,7 @@
                     $contenido = "404";
                 }
                 
-            } elseif($vista == "login" || $vista = "index"){
+            } elseif($vista == "login" || $vista == "index"){
                 $contenido = "login";
             }else{
                 $contenido = "404";
