@@ -12,6 +12,13 @@ if (isset($_POST['modulo_usuario'])) {
     if($_POST['modulo_usuario'] == "registrar") {
        echo $inUsuario->RegistrarUsuarioController();
     }
+    if($_POST['modulo_usuario'] == "eliminar") {
+       echo $inUsuario->EliminarUsuarioController();
+    }
+    if($_POST['modulo_usuario'] == "actualizar") {
+       echo $inUsuario->ActualizarUsuarioController();
+    }
+
 } else {
     session_destroy();
     header("Location: " . APP_URL. "login/");

@@ -76,7 +76,36 @@ function alertas_ajax(alerta) {
                 document.querySelector('.FormularioAjax').reset();
             }
         });
+
     }else if(alerta.tipo == "redireccionar"){
         window.location.href = alerta.url;
     }
 }
+
+// Boton de cerrar sesion
+
+let btn_exit = document.getElementById('btn_exit');
+
+btn_exit.addEventListener('click', (e) => {
+  
+    e.preventDefault();
+
+            Swal.fire({
+            title: "¿Estas seguro de cerrar sesion?",
+            text: "No podrás revertir esto!",
+            icon: "question",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Si, cerrar sesion!",
+            cancelButtonText: "No, cancelar!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+
+                let url = this.getAttribute('href');
+                window.location.href = url;
+
+            }
+        });
+
+}) 
